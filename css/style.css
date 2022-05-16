@@ -51,7 +51,7 @@ body.loading .modalz {
 html, body {
 	
 
-	background-color: #7e0100;
+	background-color: #520302;
 	font-family: Arial, Helvetica, Sans-serif;
     height: 100%;
     margin: 0;
@@ -103,7 +103,7 @@ html, body {
 	html, body {
 	
 
-		background-color: #7e0100;
+		background-color: #520302;
 		font-family: Arial, Helvetica, Sans-serif;
 		height: 100%;
 		margin: 0;
@@ -121,7 +121,8 @@ html, body {
 		-moz-animation: fadein 3s !important; /* Firefox */
 		-webkit-animation: fadein 3s !important; /* Safari and Chrome */
 		-o-animation: fadein 3s !important; /* Opera */
-		margin-top: 5% !important;
+		margin-top: 35% !important;
+		padding-top:30% !important;
 	}
 
 	.bridegroomname2{	
@@ -145,7 +146,7 @@ html, body {
 		float:center;
 		
 		font-size:14px !important;
-		width:80%;
+		width:70%;
 	}
 
 	
@@ -153,7 +154,7 @@ html, body {
 	.maintitle1 {
 		color:#f8de7e !important;
 		font-family:'Copperplate' !important;
-		margin-top: 22% !important;
+		margin-top: 25% !important;
 		font-size:9px !important;
 	}
 
@@ -220,13 +221,26 @@ html, body {
 	
 	.div1 {
 		clear:both !important;
-		background: url(../img/BG1.jpg) !important;
+		background: url(../img/BG1_KM.jpg) !important;
 		background-repeat: no-repeat !important;
 		background-size: 100%  !important;
 		background-position: center top !important;
 		overflow: hidden !important;
 		top: 0; right: 0; bottom: 0; left: 0 !important;
 		max-height: 510px !important;
+	  }
+
+	  .div2 {
+		clear:both !important;
+		background: url(../img/BG2_KM.jpg) !important;
+		background-repeat: no-repeat !important;
+		background-size: 100%  !important;
+		background-position: center top !important;
+		overflow: hidden !important;
+		top: 0; right: 0; bottom: 0; left: 0 !important;
+		height: 530px !important;
+		margin-top:20px;
+	  
 	  }
 	  
 
@@ -753,7 +767,7 @@ html, body {
 		font-family:'Arial';
 		position: relative;
 		display: inline-block;
-		color: maroon;
+		color: #520302;
 		text-transform: uppercase;
 		animation: waviy 1s infinite;
 		animation-delay: calc(.1s * var(--i));
